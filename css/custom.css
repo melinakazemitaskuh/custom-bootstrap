@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'B Yekan';
+  src: url('https://rawcdn.githack.com/YOUR-USERNAME/custom-bootstrap/main/fonts/BYekan.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, .formio, .form-control, .btn, .choices, .choices__inner, .choices__list {
+  font-family: 'B Yekan', sans-serif !important;
+}
