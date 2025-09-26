@@ -4,18 +4,31 @@
 /* -- Font: B Yekan -- */
 @font-face {
   font-family: 'B Yekan';
-  src: url('https://rawcdn.githack.com/YOUR-USERNAME/custom-bootstrap/main/fonts/BYekan.woff2') format('woff2');
+  src: url('https://rawcdn.githack.com/melinakazemitaskuh/custom-bootstrap/main/fonts/BYekan.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
-/* -- Override global font -- */
+/* -- Override global font everywhere in Form.io -- */
 body,
 .formio,
 .form-control,
 .btn,
 .choices,
 .choices__inner,
-.choices__list {
+.choices__list,
+label,
+select,
+input,
+textarea {
   font-family: 'B Yekan', sans-serif !important;
+}
+
+/* -- Align RTL selects and inputs -- */
+.form-control,
+select,
+input,
+textarea {
+  text-align: right !important;
+  direction: rtl !important;
 }
