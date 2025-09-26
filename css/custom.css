@@ -4,7 +4,7 @@
 /* -- Font: B Yekan -- */
 @font-face {
   font-family: 'B Yekan';
-  src: url('https://rawcdn.githack.com/melinakazemitaskuh/custom-bootstrap/main/fonts/BYekan.woff2') format('woff2');
+  src: url('https://cdn.jsdelivr.net/gh/melinakazemitaskuh/custom-bootstrap/fonts/Yekan.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
