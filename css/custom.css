@@ -39,4 +39,15 @@ textarea {
   text-align: right !important;
   direction: rtl !important;
 }
+/* Override مخصوص کامپوننت Choices.js */
+.b-yekan-font .choices,
+.b-yekan-font .choices__inner,
+.b-yekan-font .choices__list,
+.b-yekan-font .choices__item,
+.b-yekan-font .choices__placeholder,
+.b-yekan-font .choices__input {
+  font-family: 'B Yekan', sans-serif !important;
+  text-align: right !important;
+  direction: rtl !important;
+}
 
