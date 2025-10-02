@@ -50,4 +50,11 @@ textarea {
   text-align: right !important;
   direction: rtl !important;
 }
+/* پنل سبز سفارشی */
+.green-panel {
+  background-color: #28a745 !important; 
+  color: #fff !important;              
+  border-radius: 8px;                 
+  padding: 10px;                     
+}
 
