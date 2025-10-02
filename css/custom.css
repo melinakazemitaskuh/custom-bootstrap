@@ -71,3 +71,38 @@ textarea {
   background-color: #28a745 !important; /* هم‌رنگ با هدر */
   color: #fff !important;
 }
+/* ===== استایل استپر رادیو ===== */
+.stepper-radio .form-check {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.stepper-radio .form-check:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -40px; /* فاصله بین دکمه‌ها */
+  width: 40px;
+  height: 2px;
+  background: #ccc;
+  transform: translateY(-50%);
+}
+
+.stepper-radio input[type="radio"]:checked + label {
+  color: #1a4dd6;
+  font-weight: bold;
+}
+
+.stepper-radio input[type="radio"]:checked + label::before {
+  border-color: #1a4dd6;
+  background-color: #1a4dd6;
+}
+
+.stepper-radio .form-check:not(:last-child)::after {
+  transition: background-color 0.3s ease;
+}
+
+.stepper-radio input[type="radio"]:checked ~ label::after {
+  background: #1a4dd6;
+}
