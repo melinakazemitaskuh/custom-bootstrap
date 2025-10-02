@@ -39,6 +39,7 @@ textarea {
   text-align: right !important;
   direction: rtl !important;
 }
+
 /* Override مخصوص کامپوننت Choices.js */
 .b-yekan-font .choices,
 .b-yekan-font .choices__inner,
@@ -50,11 +51,23 @@ textarea {
   text-align: right !important;
   direction: rtl !important;
 }
-/* پنل سبز سفارشی */
+
+/* ===== پنل سبز سفارشی ===== */
 .green-panel {
-  background-color: #28a745 !important; 
-  color: #fff !important;              
-  border-radius: 8px;                 
-  padding: 10px;                     
+  border-radius: 8px;
+  overflow: hidden; /* گوشه‌های گرد روی کل کارت اعمال بشه */
 }
 
+/* هدر پنل */
+.green-panel .card-header,
+.green-panel .card-header.bg-default {
+  background-color: #28a745 !important; /* سبز */
+  color: #fff !important;
+  border-bottom: 1px solid #1e7e34 !important; /* خط مرزی سبز تیره‌تر */
+}
+
+/* بدنه پنل */
+.green-panel .card-body {
+  background-color: #28a745 !important; /* هم‌رنگ با هدر */
+  color: #fff !important;
+}
